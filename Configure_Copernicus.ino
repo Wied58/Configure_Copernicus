@@ -41,8 +41,8 @@ while (Serial1.available())  {
 
 //SET SENSITIVITY MODE
 
-# Serial1.println("$PTNLSFS,H,0*38"); # For high sensitivity
-Serial1.println("$PTNLSFS,S,0*23"); # For standard sensitivity
+// Serial1.println("$PTNLSFS,H,0*38"); // For high sensitivity
+Serial1.println("$PTNLSFS,S,0*23"); // For standard sensitivity
 for (int noodle = 1; noodle < 100; noodle++);
 
 while (Serial1.available())  {
